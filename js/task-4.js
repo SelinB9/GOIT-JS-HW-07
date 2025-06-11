@@ -14,7 +14,7 @@ form.addEventListener('submit', (evt) => {
     //const email = elements.email.value.trim();
    //const password = elements.password.value.trim();
 
-    if (data.email === ""|| data.sifre === "") {
+    if (data.email === ""|| data.password === "") {
         alert('All form fields must be filled in');
         return;
     }
